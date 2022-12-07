@@ -1,13 +1,13 @@
-package com.rafael.fazumbem;
+// package com.rafael.fazumbem;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+// import org.junit.jupiter.api.Test;
+// import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class FazUmBemApplicationTests {
+// @SpringBootTest
+// class FazUmBemApplicationTests {
 
-    @Test
-    void contextLoads() {
-    }
+//     @Test
+//     void contextLoads() {
+//     }
 
-}
+// }
