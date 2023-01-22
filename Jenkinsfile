@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 githubNotify(
-                    credentialsId: 'd13dda6c-4afa-418b-987f-c1a71349eb0a'
+                    credentialsId: 'd13dda6c-4afa-418b-987f-c1a71349eb0a',
                     description: 'Estágio 1 - Backend',
                     status: 'PENDING'
                 );
@@ -15,7 +15,7 @@ pipeline {
     post {
         success {
             githubNotify(
-                credentialsId: 'd13dda6c-4afa-418b-987f-c1a71349eb0a'
+                credentialsId: 'd13dda6c-4afa-418b-987f-c1a71349eb0a',
                 description: 'Estágio 1 - Backend',
                 status: 'SUCCESS'
             );
