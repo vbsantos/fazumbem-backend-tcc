@@ -26,7 +26,7 @@ public class EmailService{
             MimeMessageHelper mimeMessageHelper = new MimeMessageHelper(mimeMessage, "utf-8");
             mimeMessageHelper.setText(email, true);
             mimeMessageHelper.setTo(to);
-            mimeMessageHelper.setSubject("Acesso - Faz um Bem 4");
+            mimeMessageHelper.setSubject("Acesso - Faz um Bem 5");
             mimeMessageHelper.setFrom("fazumbem@inf.ufsm.br");
             javaMailSender.send(mimeMessage);
         } catch(MessagingException e) {
